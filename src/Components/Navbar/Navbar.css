@@ -1,0 +1,20 @@
+.nav-container {
+    margin: 1rem 2rem;
+    
+    
+}
+
+.navbar-nav { 
+    margin-left: 25rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    
+}
+
+@media screen and (max-width:425px) {
+    .navbar-nav {
+        margin-left: 0;
+        gap: 0;
+    }
+}
